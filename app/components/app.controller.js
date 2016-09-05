@@ -13,7 +13,7 @@ function appController(portfolioFactory, newsFactory, smoothScroll, $location,$r
 
 	vm.nameFormat = /^[A-Za-z]*$/;
 	vm.emailFormat = /^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/;
-	vm.messageFormat = /^[a-zA-Z]{20,}$/
+	vm.messageFormat = /^[a-zA-Z\s]{20,}$/
 
 	vm.single = "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.";
 	
